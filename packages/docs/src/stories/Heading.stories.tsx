@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Heading, HeadingProps } from '@lobstr-ui/react'
-import '@lobstr-ui/react/dist/output.css'
+import { Heading, HeadingProps } from '@lobstr/react'
+import '@lobstr/react/dist/output.css'
 
 /**
  * This story displays the `Heading` component, a heading tag using the `Gill Sans` font.

@@ -1,4 +1,4 @@
 {
-  "extends": "@lobstr-ui/ts-config/base.json",
+  "extends": "@lobstr/ts-config/base.json",
   "include": ["src"],
 }

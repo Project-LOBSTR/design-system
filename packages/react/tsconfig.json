@@ -1,4 +1,4 @@
 {
-  "extends": "@lobstr-ui/ts-config/react.json",
+  "extends": "@lobstr/ts-config/react.json",
   "include": ["src"],
 }

@@ -1,4 +1,4 @@
-import { dropShadow } from '@lobstr-ui/tokens'
+import { dropShadow } from '@lobstr/tokens'
 
 export const DropShadowGrid = () => {
   return (

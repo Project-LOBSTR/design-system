@@ -1,15 +1,15 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { TextInput, TextInputRootProps } from '@lobstr-ui/react'
+import { TextInput, TextInputRootProps } from '@lobstr/react'
 import { ChevronDown, CircleUserRound } from 'lucide-react'
 
-import '@lobstr-ui/react/dist/output.css'
+import '@lobstr/react/dist/output.css'
 
 /**
  * This story displays the `TextInput` component, which is a React element built using Pattern Composition. Types generated for each component are exported as `TextInput{ComponentName}Props`.
  *
  * ## Usage:
  *
- * ```import { TextInput } from '@lobstr-ui/react'```
+ * ```import { TextInput } from '@lobstr/react'```
  *
  * TextInput is a composition of the following components:
  *

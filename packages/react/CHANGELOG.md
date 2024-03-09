@@ -1,7 +1,7 @@
-# @lobstr-ui/react
+# @lobstr/react
 
-## 1.0.0
+## 1.0.1
 
-### Major Changes
+### Patch Changes
 
-- Initial publishing of all packages
+- First version

@@ -1,7 +1,7 @@
 {
-  "name": "@lobstr-ui/docs",
+  "name": "@lobstr/docs",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev:vite": "vite",
@@ -13,10 +13,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@lobstr-ui/eslint-config": "*",
-    "@lobstr-ui/react": "*",
-    "@lobstr-ui/tokens": "*",
-    "@lobstr-ui/ts-config": "*",
+    "@lobstr/eslint-config": "*",
+    "@lobstr/react": "*",
+    "@lobstr/tokens": "*",
+    "@lobstr/ts-config": "*",
     "lucide-react": "^0.341.0",
     "polished": "^4.2.2",
     "react": "^18.2.0",

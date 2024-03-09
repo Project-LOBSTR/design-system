@@ -1,6 +1,6 @@
 import { PackageOpen } from 'lucide-react'
 
-import '@lobstr-ui/react/dist/output.css'
+import '@lobstr/react/dist/output.css'
 
 const HomePage = () => {
 
@@ -90,7 +90,7 @@ const HomePage = () => {
               fontFamily: 'monospace',
             }}
           >
-            npm install @lobstr-ui/react
+            npm install @lobstr/react
           </p>
         </div>
       </div>

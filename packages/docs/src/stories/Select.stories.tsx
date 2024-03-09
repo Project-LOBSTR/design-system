@@ -1,14 +1,14 @@
-import { Select, SelectRootProps } from '@lobstr-ui/react'
+import { Select, SelectRootProps } from '@lobstr/react'
 import { Meta, StoryObj } from '@storybook/react'
 import { Check, ChevronDown, User } from 'lucide-react'
-import '@lobstr-ui/react/dist/output.css'
+import '@lobstr/react/dist/output.css'
 
 /**
  * This story displays the `Select` component, which is a React element built using Pattern Composition. Types generated for each component are exported as `Select{ComponentName}Props`.
  *
  * ## Usage:
  *
- * ```import { Select } from '@lobstr-ui/react'```
+ * ```import { Select } from '@lobstr/react'```
  *
  * Select is a composition of the following components:
  *

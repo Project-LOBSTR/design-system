@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Text, TextProps } from '@lobstr-ui/react'
-import '@lobstr-ui/react/dist/output.css'
+import { Text, TextProps } from '@lobstr/react'
+import '@lobstr/react/dist/output.css'
 
 /**
  * This story displays the `Text` component, a text tag using the `Perpetua` font.

@@ -1,13 +1,13 @@
-import { Toggle, ToggleControlProps, ToggleRootProps } from '@lobstr-ui/react'
+import { Toggle, ToggleControlProps, ToggleRootProps } from '@lobstr/react'
 import { Meta, StoryObj } from '@storybook/react'
-import '@lobstr-ui/react/dist/output.css'
+import '@lobstr/react/dist/output.css'
 
 /**
  * This story displays the `Toggle` component, which is a React element built using Pattern Composition. Types generated for each component are exported as `Toggle{ComponentName}Props`.
  *
  * ## Usage:
  *
- * ```import { Toggle } from '@lobstr-ui/react'```
+ * ```import { Toggle } from '@lobstr/react'```
  *
  *  Toggle is a composition of the following components:
  *

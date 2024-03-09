@@ -1,6 +1,6 @@
 {
-  "name": "@lobstr-ui/react",
-  "version": "1.0.0",
+  "name": "@lobstr/react",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
   "style": "./dist/output.css",
@@ -15,9 +15,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@lobstr-ui/eslint-config": "*",
-    "@lobstr-ui/tokens": "*",
-    "@lobstr-ui/ts-config": "*",
+    "@lobstr/eslint-config": "*",
+    "@lobstr/tokens": "*",
+    "@lobstr/ts-config": "*",
     "autoprefixer": "^10.4.17",
     "eslint-plugin-prettier": "^5.1.3",
     "postcss": "^8.4.33",

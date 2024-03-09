@@ -1,4 +1,4 @@
 module.exports = {
-  extends: '@lobstr-ui/eslint-config',
+  extends: '@lobstr/eslint-config',
   plugins: ['prettier'],
 }

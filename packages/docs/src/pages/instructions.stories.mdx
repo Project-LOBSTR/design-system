@@ -8,9 +8,9 @@ How to use SF Digital in your project:
 
 ### Installation
 
-**React Components**: `npm install @lobstr-ui/react`
+**React Components**: `npm install @lobstr/react`
 
-**Colors, Typography and Tokens**: `npm install @lobstr-ui/tokens`
+**Colors, Typography and Tokens**: `npm install @lobstr/tokens`
 
 ## Configuration
 
@@ -31,7 +31,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@lobstr-ui/tokens'
+} from '@lobstr/tokens'
 
 /** @type {import('tailwindcss').Config} */
 const config: Config = {
@@ -62,14 +62,14 @@ export default config
 
 Add this line of code to the root of your project
 
-`import '@lobstr-ui/react/dist/output.css'`
+`import '@lobstr/react/dist/output.css'`
 
 ### 3. Import the Component you wish to use
 
 ### E.g.
 
 ```
-import { TextInput } from '@lobstr-ui/react'
+import { TextInput } from '@lobstr/react'
 import { Search } from 'lucide-react'
 
 export const YourComponent = () => {

@@ -1,4 +1,4 @@
-import { colors } from '@lobstr-ui/tokens'
+import { colors } from '@lobstr/tokens'
 import { getContrast } from 'polished'
 import { useState } from 'react'
 
