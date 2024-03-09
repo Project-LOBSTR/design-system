@@ -1,6 +1,6 @@
 
 
-> @sf-digital-ui/react@4.1.1 build
+> @lobstr-ui/react@4.1.1 build
 > npx tailwindcss -i ./src/index.css -o ./dist/output.css && tsup src/index.tsx --format esm, cjs --dts --external react
 
 

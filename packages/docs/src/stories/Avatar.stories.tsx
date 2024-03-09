@@ -1,13 +1,13 @@
-import { Avatar, AvatarRootProps } from '@sf-digital-ui/react'
+import { Avatar, AvatarRootProps } from '@lobstr-ui/react'
 import { Meta, StoryObj } from '@storybook/react'
-import '@sf-digital-ui/react/dist/output.css'
+import '@lobstr-ui/react/dist/output.css'
 
 /**
  * This story displays the `Avatar` component, which is a React element built using Pattern Composition. Types generated for each component are exported as `Avatar{ComponentName}Props`.
  *
  * ## Usage:
  *
- * ```import { Avatar } from '@sf-digital-ui/react'```
+ * ```import { Avatar } from '@lobstr-ui/react'```
  *
  * Avatar is a composition of the following components:
  *

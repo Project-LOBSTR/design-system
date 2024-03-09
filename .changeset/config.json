@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@sf-digital-ui/docs"]
+  "ignore": ["@lobstr-ui/docs"]
 }

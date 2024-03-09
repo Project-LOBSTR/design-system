@@ -9,7 +9,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@sf-digital-ui/tokens'
+} from '@lobstr-ui/tokens'
 
 import { Config } from 'tailwindcss'
 

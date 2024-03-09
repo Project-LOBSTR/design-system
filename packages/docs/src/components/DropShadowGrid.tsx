@@ -1,4 +1,4 @@
-import { dropShadow } from '@sf-digital-ui/tokens'
+import { dropShadow } from '@lobstr-ui/tokens'
 
 export const DropShadowGrid = () => {
   return (

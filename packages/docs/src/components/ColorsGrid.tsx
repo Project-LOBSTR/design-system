@@ -1,4 +1,4 @@
-import { colors } from '@sf-digital-ui/tokens'
+import { colors } from '@lobstr-ui/tokens'
 import { getContrast } from 'polished'
 import { useState } from 'react'
 

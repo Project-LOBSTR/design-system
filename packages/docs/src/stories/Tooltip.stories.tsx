@@ -3,18 +3,18 @@ import {
   Tooltip,
   Text,
   TooltipContentProps,
-} from '@sf-digital-ui/react'
+} from '@lobstr-ui/react'
 import { HelpCircle } from 'lucide-react'
 import { Meta, StoryObj } from '@storybook/react'
 
-import '@sf-digital-ui/react/dist/output.css'
+import '@lobstr-ui/react/dist/output.css'
 
 /**
  * This story displays the `Tooltip` component, which is a React element built using Pattern Composition. Types generated for each component are exported as `Tooltip{ComponentName}Props`.
  *
  * ## Usage:
  *
- * ```import { Tooltip } from '@sf-digital-ui/react'```
+ * ```import { Tooltip } from '@lobstr-ui/react'```
  *
  * Tooltip is a composition of the following components:
  *

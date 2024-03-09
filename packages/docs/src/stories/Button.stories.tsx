@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { ButtonRootProps, Button } from '@sf-digital-ui/react'
+import { ButtonRootProps, Button } from '@lobstr-ui/react'
 
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-import '@sf-digital-ui/react/dist/output.css'
+import '@lobstr-ui/react/dist/output.css'
 
 /**
  * This story displays the `Button` component, which is a React Element built using Pattern Composition.

@@ -1,5 +1,5 @@
 {
-  "name": "@sf-digital-ui/tokens",
+  "name": "@lobstr-ui/tokens",
   "version": "3.1.1",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@sf-digital-ui/ts-config": "*",
-    "@sf-digital-ui/eslint-config": "*",
+    "@lobstr-ui/ts-config": "*",
+    "@lobstr-ui/eslint-config": "*",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }

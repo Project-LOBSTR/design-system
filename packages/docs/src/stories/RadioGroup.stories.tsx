@@ -2,9 +2,9 @@ import {
   RadioGroup,
   RadioGroupItemProps,
   RadioGroupRootProps,
-} from '@sf-digital-ui/react'
+} from '@lobstr-ui/react'
 
-import '@sf-digital-ui/react/dist/output.css'
+import '@lobstr-ui/react/dist/output.css'
 import { Meta, StoryObj } from '@storybook/react'
 
 /**

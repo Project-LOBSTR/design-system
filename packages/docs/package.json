@@ -1,5 +1,5 @@
 {
-  "name": "@sf-digital-ui/docs",
+  "name": "@lobstr-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,10 +13,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@sf-digital-ui/eslint-config": "*",
-    "@sf-digital-ui/react": "*",
-    "@sf-digital-ui/tokens": "*",
-    "@sf-digital-ui/ts-config": "*",
+    "@lobstr-ui/eslint-config": "*",
+    "@lobstr-ui/react": "*",
+    "@lobstr-ui/tokens": "*",
+    "@lobstr-ui/ts-config": "*",
     "lucide-react": "^0.341.0",
     "polished": "^4.2.2",
     "react": "^18.2.0",

@@ -1,6 +1,6 @@
 
 
-> @sf-digital-ui/tokens@3.1.1 build
+> @lobstr-ui/tokens@3.1.1 build
 > tsup src/index.ts --format esm,cjs --dts
 
 [34mCLI[39m Building entry: src/index.ts

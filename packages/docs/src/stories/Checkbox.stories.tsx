@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Checkbox } from '@sf-digital-ui/react'
-import '@sf-digital-ui/react/dist/output.css'
+import { Checkbox } from '@lobstr-ui/react'
+import '@lobstr-ui/react/dist/output.css'
 
 /**
  * This story displays the `Checkbox` component, which is a React Element built using Pattern Composition.

@@ -1,4 +1,4 @@
 module.exports = {
-  extends: '@sf-digital-ui/eslint-config',
+  extends: '@lobstr-ui/eslint-config',
   plugins: ['prettier'],
 }

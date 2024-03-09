@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps, Text } from '@sf-digital-ui/react'
-import '@sf-digital-ui/react/dist/output.css'
+import { Box, BoxProps, Text } from '@lobstr-ui/react'
+import '@lobstr-ui/react/dist/output.css'
 
 const BoxStory: Meta<BoxProps> = {
   title: 'Surfaces/Box',

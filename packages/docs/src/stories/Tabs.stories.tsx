@@ -1,14 +1,14 @@
-import { Tabs, TabsRootProps, TabsTriggerProps } from '@sf-digital-ui/react'
+import { Tabs, TabsRootProps, TabsTriggerProps } from '@lobstr-ui/react'
 import { Meta, StoryObj } from '@storybook/react'
 
-import '@sf-digital-ui/react/dist/output.css'
+import '@lobstr-ui/react/dist/output.css'
 
 /**
  * This story displays the `Tabs` component, which is a React element built using Pattern Composition. Types generated for each component are exported as `Tabs{ComponentName}Props`.
  *
  * ## Usage:
  *
- *  ```import { Tabs } from '@sf-digital-ui/react'```
+ *  ```import { Tabs } from '@lobstr-ui/react'```
  *
  *  Tabs is a composition of the following components:
  *

@@ -1,4 +1,4 @@
 {
-  "extends": "@sf-digital-ui/ts-config/base.json",
+  "extends": "@lobstr-ui/ts-config/base.json",
   "include": ["src"],
 }
