@@ -1,6 +1,6 @@
 {
   "name": "@lobstr-ui/eslint-config",
-  "version": "2.1.1",
+  "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "main": "index.js",
