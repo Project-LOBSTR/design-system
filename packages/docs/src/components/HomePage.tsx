@@ -3,7 +3,6 @@ import { PackageOpen } from 'lucide-react'
 import '@lobstr/react/dist/output.css'
 
 const HomePage = () => {
-
   return (
     <div
       style={{
@@ -16,7 +15,7 @@ const HomePage = () => {
         alignItems: 'center',
         display: 'grid',
         gridTemplateColumns: '1fr 1fr',
-        background: 'linear-gradient(to bottom, #002917, #000000)',
+        background: 'linear-gradient(to bottom, #3A167F, #000000)',
       }}
     >
       <div
@@ -39,23 +38,23 @@ const HomePage = () => {
           <PackageOpen
             style={{
               padding: '8px',
-              backgroundColor: '#006237',
+              backgroundColor: '#AB87FC',
               borderRadius: '100%',
             }}
             size={48}
-            color="#549679"
+            color="#8A2BE2"
           />
 
           <h1
             style={{
               fontFamily: 'sans-serif',
-              color: '#549679',
+              color: '#8A2BE2',
               fontWeight: 700,
               marginBottom: '0',
               fontSize: '48px',
             }}
           >
-            SF Digital
+            Lobstr
           </h1>
         </div>
         <h3
@@ -64,12 +63,12 @@ const HomePage = () => {
             color: '#e9e9e9',
           }}
         >
-          Ready to use SF Design UI components
+          Ready to use Lobstr Design UI components
         </h3>
         <p style={{ color: '#989898' }}>
-          SF Digital is an open-source React component library built using Radix
-          UI primitives and TailwindCSS. Its use of pattern-composition creates
-          less complexity and more flexibility.
+          Lobstr Digital is an open-source React component library built using
+          Radix UI primitives and TailwindCSS. Its use of pattern-composition
+          creates less complexity and more flexibility.
         </p>
 
         <div
@@ -80,12 +79,12 @@ const HomePage = () => {
             paddingRight: '14px',
             borderRadius: '30px',
             borderWidth: '1px',
-            borderColor: '#006237',
+            borderColor: '#3A167F',
           }}
         >
           <p
             style={{
-              color: '#549679',
+              color: '#8A2BE2',
               fontSize: '16px',
               fontFamily: 'monospace',
             }}

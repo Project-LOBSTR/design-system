@@ -1,13 +1,10 @@
 import { primaryPalette } from "./colors/primary";
-import { secondaryPalette } from "./colors/secondary";
-import { tertiaryPalette } from "./colors/tertiary";
-import { protectionFamilyWealthPalette } from "./colors/protectionFamilyWealth";
-import { managementOfFamilyAssetsPalette } from "./colors/managementOfFamilyAssets";
 
 export const colors = {
   ...primaryPalette,
-  ...secondaryPalette,
-  ...tertiaryPalette,
-  ...protectionFamilyWealthPalette,
-  ...managementOfFamilyAssetsPalette,
+  secondary: { 500: "#FF6B81" },
+  tertiary: { 500: "#1E90FF" },
+  accent: { 500: "#008080" },
+  highlight: { 500: "#FFC0CB" },
+  detail: { 500: "#AFEEEE" },
 };

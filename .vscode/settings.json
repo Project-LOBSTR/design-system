@@ -13,7 +13,7 @@
     "editor.defaultFormatter": null
   },
   "[typescript]": {
-    "editor.defaultFormatter": null
+    
   },
   "eslint.enable": true,
   "eslint.validate": ["javascript", "typescript"],

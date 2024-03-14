@@ -11,6 +11,18 @@ export const primaryPalette = {
     800: "#00361e",
     900: "#002917",
   },
+  "primary-purple": {
+    50: "#F1EBFF",
+    100: "#E3D7FE",
+    200: "#C7AFFD",
+    300: "#AB87FC",
+    400: "#8F5FFB",
+    500: "#8A2BE2",
+    600: "#6A22CB",
+    700: "#5A1EB2",
+    800: "#4A1A99",
+    900: "#3A167F",
+  },
   "primary-black": {
     50: "#e6e6e6",
     100: "#b0b0b0",

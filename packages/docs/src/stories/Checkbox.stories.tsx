@@ -68,7 +68,7 @@ export const WithLabel: StoryObj<typeof Checkbox.Root> = {
         </Checkbox.Indicator>
       </Checkbox.Root>
       <p
-        className={` text-primary-green-500 text-sf-${args.size ?? 'sm'} font-auto`}
+        className={` text-primary-purple-500 text-sf-${args.size ?? 'sm'} font-auto`}
       >
         Checkbox Label
       </p>

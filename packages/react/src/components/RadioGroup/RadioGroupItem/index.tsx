@@ -6,7 +6,7 @@ const radio = tv(
   {
     base: [
       'rounded-full border border-neutral-50 bg-white',
-      ' data-[state="checked"]:border-primary-green-500',
+      ' data-[state="checked"]:border-primary-purple-500',
     ],
 
     variants: {

@@ -12,14 +12,14 @@ const button = tv(
     variants: {
       variant: {
         primary: [
-          'bg-primary-green-500 text-white',
-          'hover:bg-primary-green-700',
-          'active:bg-primary-green-800',
+          'bg-primary-purple-500 text-white',
+          'hover:bg-primary-purple-700',
+          'active:bg-primary-purple-800',
         ],
         secondary: [
-          'border-xs border border-primary-green-500 bg-white text-primary-green-500',
-          'hover:border-primary-green-700 hover:bg-primary-green-50 hover:text-primary-green-700',
-          'active:border-primary-green-800 active:text-primary-green-800',
+          'border-xs border-primary-purple-500 text-primary-purple-500 border bg-white',
+          'hover:border-primary-purple-700 hover:bg-primary-purple-50 hover:text-primary-purple-700',
+          'active:border-primary-purple-800 active:text-primary-purple-800',
         ],
         success: [
           'bg-success-500 text-white',

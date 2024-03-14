@@ -105,14 +105,14 @@ var button = tv3(
     variants: {
       variant: {
         primary: [
-          "bg-primary-green-500 text-white",
-          "hover:bg-primary-green-700",
-          "active:bg-primary-green-800"
+          "bg-primary-purple-500 text-white",
+          "hover:bg-primary-purple-700",
+          "active:bg-primary-purple-800"
         ],
         secondary: [
-          "border-xs border border-primary-green-500 bg-white text-primary-green-500",
-          "hover:border-primary-green-700 hover:bg-primary-green-50 hover:text-primary-green-700",
-          "active:border-primary-green-800 active:text-primary-green-800"
+          "border-xs border-primary-purple-500 text-primary-purple-500 border bg-white",
+          "hover:border-primary-purple-700 hover:bg-primary-purple-50 hover:text-primary-purple-700",
+          "active:border-primary-purple-800 active:text-primary-purple-800"
         ],
         success: [
           "bg-success-500 text-white",
@@ -190,7 +190,7 @@ var input = tv4(
   {
     base: [
       "flex w-60 flex-row items-center justify-between rounded-md border border-neutral-50 bg-white font-sf-digital text-neutral-80",
-      "focus-within:border focus-within:border-primary-green-500"
+      "focus-within:border focus-within:border-primary-purple-500"
     ],
     variants: {
       size: {
@@ -289,7 +289,7 @@ var checkbox = tv5(
   {
     base: [
       "border-xs flex h-5 w-5 items-center justify-center rounded-xs border border-neutral-50",
-      'data-[state="checked"]:border-transparent data-[state="checked"]:bg-primary-green-500'
+      'data-[state="checked"]:border-transparent data-[state="checked"]:bg-primary-purple-500'
     ],
     variants: {
       size: {
@@ -341,7 +341,7 @@ var radio2 = tv7(
   {
     base: [
       "rounded-full border border-neutral-50 bg-white",
-      ' data-[state="checked"]:border-primary-green-500'
+      ' data-[state="checked"]:border-primary-purple-500'
     ],
     variants: {
       size: {
@@ -390,8 +390,8 @@ var tab = tv8(
     base: [" font-sf-digital font-bold text-neutral-80"],
     variants: {
       variant: {
-        solid: ' rounded-md bg-neutral-20 text-sf-lg hover:bg-neutral-40 hover:text-neutral-90 data-[state="active"]:bg-primary-green-50 data-[state="active"]:text-primary-green-500',
-        underline: ' border-b border-b-neutral-30 text-sf-lg hover:border-b-neutral-90 hover:text-neutral-90 data-[state="active"]:border-b-primary-green-500 data-[state="active"]:text-primary-green-500'
+        solid: ' data-[state="active"]:text-primary-purple-500 data-[state="active"]:bg-primary-purple-50 rounded-md bg-neutral-20 text-sf-lg hover:bg-neutral-40 hover:text-neutral-90',
+        underline: ' data-[state="active"]:border-b-primary-purple-500 data-[state="active"]:text-primary-purple-500 border-b border-b-neutral-30 text-sf-lg hover:border-b-neutral-90 hover:text-neutral-90'
       },
       size: {
         base: "px-4 py-2.5",
@@ -443,7 +443,7 @@ import { jsx as jsx20 } from "react/jsx-runtime";
 var toggle = tv9(
   {
     base: [
-      'flex flex-row items-center rounded-lg p-0.5 data-[state="checked"]:justify-end data-[disabled]:bg-neutral-40 data-[state="checked"]:bg-primary-green-500 data-[state="unchecked"]:bg-neutral-40'
+      'flex flex-row items-center rounded-lg p-0.5 data-[state="checked"]:justify-end data-[disabled]:bg-neutral-40 data-[state="checked"]:bg-primary-purple-500 data-[state="unchecked"]:bg-neutral-40'
     ],
     variants: {
       size: {
@@ -516,7 +516,7 @@ var Image2 = (props) => {
   return /* @__PURE__ */ jsx23(
     Avatar2.Image,
     __spreadProps(__spreadValues({}, props), {
-      className: '  className="h-full object-cover" w-full rounded-[inherit]'
+      className: "h-full w-full rounded-[inherit] object-cover"
     })
   );
 };
@@ -616,7 +616,7 @@ var Trigger6 = (props) => /* @__PURE__ */ jsx32(
   Select2.Trigger,
   __spreadProps(__spreadValues({}, props), {
     className: twJoin3(
-      'flex flex-row items-center justify-between gap-2 rounded-md border border-neutral-50 bg-white px-3.5 py-2.5 text-sf-md leading-none text-neutral-900 focus:outline-none data-[state="open"]:border-primary-green-500 data-[placeholder]:font-sf-digital data-[placeholder]:font-thin data-[placeholder]:text-neutral-500',
+      'flex flex-row items-center justify-between gap-2 rounded-md border border-neutral-50 bg-white px-3.5 py-2.5 text-sf-md leading-none text-neutral-900 focus:outline-none data-[state="open"]:border-primary-purple-500 data-[placeholder]:font-sf-digital data-[placeholder]:font-thin data-[placeholder]:text-neutral-500',
       props == null ? void 0 : props.className
     )
   })

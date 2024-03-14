@@ -5,7 +5,7 @@ const input = tv(
   {
     base: [
       'flex w-60 flex-row items-center justify-between rounded-md border border-neutral-50 bg-white font-sf-digital text-neutral-80',
-      'focus-within:border focus-within:border-primary-green-500',
+      'focus-within:border focus-within:border-primary-purple-500',
     ],
 
     variants: {

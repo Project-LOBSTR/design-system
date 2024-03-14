@@ -54,7 +54,7 @@ export const WithLabel: StoryObj<typeof RadioGroup> = {
     <RadioGroup.Root {...args}>
       <div className="flex flex-row gap-2 items-center">
         <RadioGroup.Item value="1" size="sm" />
-        <p className="text-sf-sm text-primary-green-500">Radio Label</p>
+        <p className="text-sf-sm text-primary-purple-500">Radio Label</p>
       </div>
     </RadioGroup.Root>
   ),
