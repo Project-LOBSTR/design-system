@@ -1,5 +1,11 @@
 # @lobstr/react
 
+## 1.1.1
+
+### Patch Changes
+
+- Fix input
+
 ## 1.1.0
 
 ### Minor Changes
