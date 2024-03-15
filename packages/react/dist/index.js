@@ -279,22 +279,26 @@ var Root2 = (_a) => {
 var useTextInput = () => (0, import_react.useContext)(TextInputContext);
 
 // src/components/TextInput/Control/index.tsx
+var import_react2 = require("react");
 var import_tailwind_merge = require("tailwind-merge");
 var import_jsx_runtime8 = require("react/jsx-runtime");
-var Control = (_a) => {
-  var props = __objRest(_a, []);
-  const { disabled } = useTextInput();
-  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
-    "input",
-    __spreadProps(__spreadValues({}, props), {
-      disabled,
-      className: (0, import_tailwind_merge.twJoin)(
-        props.className,
-        "w-full border-transparent text-black outline-none placeholder:font-sf-digital disabled:bg-neutral-40 disabled:text-neutral-50"
-      )
-    })
-  );
-};
+var Control = (0, import_react2.forwardRef)(
+  (props, ref) => {
+    const { disabled } = useTextInput();
+    return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)(
+      "input",
+      __spreadProps(__spreadValues({}, props), {
+        ref,
+        disabled,
+        className: (0, import_tailwind_merge.twJoin)(
+          props.className,
+          "w-full border-transparent text-black outline-none placeholder:font-sf-digital disabled:bg-neutral-40 disabled:text-neutral-50"
+        )
+      })
+    );
+  }
+);
+Control.displayName = "TextInput.Control";
 
 // src/components/TextInput/Prefix/index.tsx
 var import_tailwind_merge2 = require("tailwind-merge");

@@ -235,22 +235,26 @@ var Root2 = (_a) => {
 var useTextInput = () => useContext(TextInputContext);
 
 // src/components/TextInput/Control/index.tsx
+import { forwardRef } from "react";
 import { twJoin } from "tailwind-merge";
 import { jsx as jsx8 } from "react/jsx-runtime";
-var Control = (_a) => {
-  var props = __objRest(_a, []);
-  const { disabled } = useTextInput();
-  return /* @__PURE__ */ jsx8(
-    "input",
-    __spreadProps(__spreadValues({}, props), {
-      disabled,
-      className: twJoin(
-        props.className,
-        "w-full border-transparent text-black outline-none placeholder:font-sf-digital disabled:bg-neutral-40 disabled:text-neutral-50"
-      )
-    })
-  );
-};
+var Control = forwardRef(
+  (props, ref) => {
+    const { disabled } = useTextInput();
+    return /* @__PURE__ */ jsx8(
+      "input",
+      __spreadProps(__spreadValues({}, props), {
+        ref,
+        disabled,
+        className: twJoin(
+          props.className,
+          "w-full border-transparent text-black outline-none placeholder:font-sf-digital disabled:bg-neutral-40 disabled:text-neutral-50"
+        )
+      })
+    );
+  }
+);
+Control.displayName = "TextInput.Control";
 
 // src/components/TextInput/Prefix/index.tsx
 import { twJoin as twJoin2 } from "tailwind-merge";
