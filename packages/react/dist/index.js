@@ -331,6 +331,7 @@ var Check = (props) => {
 
 // src/components/Checkbox/CheckboxRoot/index.tsx
 var Checkbox = __toESM(require("@radix-ui/react-checkbox"));
+var import_react3 = require("react");
 var import_tailwind_variants5 = require("tailwind-variants");
 var import_jsx_runtime12 = require("react/jsx-runtime");
 var checkbox = (0, import_tailwind_variants5.tv)(
@@ -350,10 +351,18 @@ var checkbox = (0, import_tailwind_variants5.tv)(
   },
   { twMerge: false }
 );
-var Root4 = (_a) => {
-  var _b = _a, { className, size } = _b, props = __objRest(_b, ["className", "size"]);
-  return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(Checkbox.Root, __spreadValues({ className: checkbox({ className, size }) }, props));
-};
+var Root4 = (0, import_react3.forwardRef)(
+  (props, ref) => {
+    return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(
+      Checkbox.Root,
+      __spreadValues({
+        className: checkbox({ className: props.className, size: props.size }),
+        ref
+      }, props)
+    );
+  }
+);
+Root4.displayName = "Checkbox.Root";
 
 // src/components/Checkbox/CheckboxIndicator/index.tsx
 var Checkbox2 = __toESM(require("@radix-ui/react-checkbox"));

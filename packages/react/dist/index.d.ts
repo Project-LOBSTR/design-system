@@ -252,7 +252,7 @@ type CheckboxRootProps = ComponentProps<typeof Checkbox$1.Root> & VariantProps<t
 type CheckboxIndicatorProps = ComponentProps<typeof Checkbox$1.CheckboxIndicator>;
 
 declare const Checkbox: {
-    Root: ({ className, size, ...props }: CheckboxRootProps) => react_jsx_runtime.JSX.Element;
+    Root: react.ForwardRefExoticComponent<Omit<CheckboxRootProps, "ref"> & react.RefAttributes<HTMLButtonElement>>;
     Indicator: (props: Checkbox$1.CheckboxIndicatorProps & react.RefAttributes<HTMLSpanElement>) => react_jsx_runtime.JSX.Element;
     Check: (props: lucide_react.LucideProps) => react_jsx_runtime.JSX.Element;
 };

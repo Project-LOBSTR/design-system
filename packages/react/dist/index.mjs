@@ -287,6 +287,7 @@ var Check = (props) => {
 
 // src/components/Checkbox/CheckboxRoot/index.tsx
 import * as Checkbox from "@radix-ui/react-checkbox";
+import { forwardRef as forwardRef2 } from "react";
 import { tv as tv5 } from "tailwind-variants";
 import { jsx as jsx12 } from "react/jsx-runtime";
 var checkbox = tv5(
@@ -306,10 +307,18 @@ var checkbox = tv5(
   },
   { twMerge: false }
 );
-var Root4 = (_a) => {
-  var _b = _a, { className, size } = _b, props = __objRest(_b, ["className", "size"]);
-  return /* @__PURE__ */ jsx12(Checkbox.Root, __spreadValues({ className: checkbox({ className, size }) }, props));
-};
+var Root4 = forwardRef2(
+  (props, ref) => {
+    return /* @__PURE__ */ jsx12(
+      Checkbox.Root,
+      __spreadValues({
+        className: checkbox({ className: props.className, size: props.size }),
+        ref
+      }, props)
+    );
+  }
+);
+Root4.displayName = "Checkbox.Root";
 
 // src/components/Checkbox/CheckboxIndicator/index.tsx
 import * as Checkbox2 from "@radix-ui/react-checkbox";
