@@ -1,6 +1,6 @@
 
 
-> @lobstr/tokens@1.1.1 build
+> @lobstr/tokens@1.1.2 build
 > tsup src/index.ts --format esm,cjs --dts
 
 [34mCLI[39m Building entry: src/index.ts
@@ -9,11 +9,11 @@
 [34mCLI[39m Target: node16
 [34mESM[39m Build start
 [34mCJS[39m Build start
-[32mESM[39m [1mdist/index.mjs [22m[32m4.40 KB[39m
-[32mESM[39m ⚡️ Build success in 82ms
 [32mCJS[39m [1mdist/index.js [22m[32m5.63 KB[39m
-[32mCJS[39m ⚡️ Build success in 83ms
+[32mCJS[39m ⚡️ Build success in 14ms
+[32mESM[39m [1mdist/index.mjs [22m[32m4.40 KB[39m
+[32mESM[39m ⚡️ Build success in 15ms
 [34mDTS[39m Build start
-[32mDTS[39m ⚡️ Build success in 2126ms
+[32mDTS[39m ⚡️ Build success in 627ms
 [32mDTS[39m [1mdist/index.d.mts [22m[32m3.81 KB[39m
 [32mDTS[39m [1mdist/index.d.ts  [22m[32m3.81 KB[39m

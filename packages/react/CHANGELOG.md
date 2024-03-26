@@ -1,5 +1,11 @@
 # @lobstr/react
 
+## 1.1.2
+
+### Patch Changes
+
+- Forward ref on the Checkbox component
+
 ## 1.1.1
 
 ### Patch Changes
